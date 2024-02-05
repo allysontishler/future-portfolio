@@ -56,10 +56,14 @@ body {
     display: flex;
 }
 
-.avatar-img,
+.avatar-img {
+    width: 30%;
+    height: auto;
+}
+
+
 .holoscreen-img {
     width: 50%;
-    
 }
 
 .avatar-img img,
