@@ -59,7 +59,7 @@ body {
 .avatar-img,
 .holoscreen-img {
     width: 50%;
-    box-sizing: border-box;
+    
 }
 
 .avatar-img img,
