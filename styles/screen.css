@@ -51,3 +51,19 @@ body {
     margin-left: 200px;
     position: sticky;
 }
+
+.images {
+    display: flex;
+}
+
+.avatar-img,
+.holoscreen-img {
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.avatar-img img,
+.holoscreen-img img {
+    width: 100%;
+    height: auto;
+}
