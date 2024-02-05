@@ -11,12 +11,16 @@ title: 11ty Boilerplate
   <link rel="stylesheet" href="/styles/screen.css">
 </head>
 <body>
-  <nav>
-    <ul>
-      <li><a href="/" title="Go home">Home</a></li>
-      <li><a href="/about/" title="About the boilerplate">About</a></li>
-    </ul>
-  </nav>
-    {{ content }}
+  <div class="nav-bar-container">
+    <div class="home-nav">
+      <a href="index.html" class="far-left nav-link">Allyson Tishler</a>
+    </div>
+    <div class="top-nav">
+      <a href="about" class="left-link nav-link">about</a>
+      <a href="work" class="center-link nav-link">work</a>
+      <a href="https://drive.google.com/file/d/14sLFF7O-Hz3Bu60RD8h-8-tfBEtePntb/view?usp=sharing" class="right-link nav-link">resume</a>
+    </div>
+  </div>
+  {{ content }}
 </body>
 </html>
